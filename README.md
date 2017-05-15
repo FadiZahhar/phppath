@@ -1,3 +1,2 @@
-# MySql Syntac
-this is a reference of query language that can be used with mysql.
-this is a learning cruve to know all possible syntax that can be written.
+# OOP PHP With Mysql
+a full demo working with php and mysql object oriented advanced programming.
