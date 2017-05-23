@@ -1,2 +1,2 @@
-# OOP PHP With Mysql
-a full demo working with php and mysql object oriented advanced programming.
+# Code Clinic PHP
+5 diffrent projects problems with solution.

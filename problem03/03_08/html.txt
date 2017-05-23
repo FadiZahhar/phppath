@@ -1,0 +1,11 @@
+﻿?>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Eight Queens</title>
+    <link href="queens.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Solving the Eight Queens Problem</h1>
+<?php

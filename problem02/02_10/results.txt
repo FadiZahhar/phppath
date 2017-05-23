@@ -1,0 +1,15 @@
+﻿if ($pirated) {
+    echo '<table>';
+    echo '<tr><th>Original</th><th>Cropped</th><th>Area of Sub-Image</th></tr>';
+    foreach ($pirated as $row) {
+        echo '<tr><td>'. basename($row[0]) . '</td><td>' . basename($row[1]);
+        if (isset($row[2])) {
+            echo '<br>' . $row[2];
+        }
+        echo '</td>';
+        echo '<td><img src="' . $matchedDir . '/' . basename($row[0]) . '"></td></tr>';
+    }
+    echo '</table>';
+} else {
+    echo '<p>No sub-images found.</p>';
+}

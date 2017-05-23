@@ -1,0 +1,14 @@
+﻿// Function to rotate a board 90 degrees
+function rotateBoard($layout) {
+    $row = 0;
+    while ($row < BOARD_SIZE) {
+        // Convert the number to binary, and get its length
+        $offset = strlen(decbin($layout[$row])) - 1;
+        // Add a queen to each column starting from the left
+        $rotated[$offset] = 1 << (BOARD_SIZE - $row - 1);
+        $row++;
+    }
+    // Sort the new array using the array keys in ascending order
+    ksort($rotated);
+    return $rotated;
+}
