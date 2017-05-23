@@ -1,1 +1,0 @@
-﻿'Click and drag the mouse to generate a tone. Moving horizontally controls the volume. Moving vertically controls the tone.'
