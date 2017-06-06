@@ -1,1 +1,0 @@
-﻿'bin', 'cgi', 'exe', 'js', 'pl', 'php', 'py', 'sh'
