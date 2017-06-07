@@ -1,5 +1,0 @@
-﻿require_once 'src/Foundationphp/Psr4Autoloader.php';
-
-$loader = new Foundationphp\Psr4Autoloader();
-$loader->register();
-$loader->addNamespace('Foundationphp', 'src/Foundationphp');
